@@ -616,6 +616,7 @@ function thirdPlace(){
     fetch("https://worldcupjson.net/matches")
     .then((data) => data.json())
     .then((details) => {
+        console.log(details);
             
             // get info about matches
             let stage_id = [62]
@@ -843,7 +844,7 @@ function finale(){
                         match.awayGoals = null;
                     }
                     
-                    if(match.status || match.time === "in_progress") {
+                    if(match.status === "in_progress" || match.time === "in_progress") {
                         match.time = "In progress. See live minute in today's matches"
                     }
     

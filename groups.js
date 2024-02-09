@@ -71,7 +71,7 @@ function groups(){
                     teams_b = [0, 3, 2, 1];
                     break;
                 case 2:
-                    teams_b = [1, 2, 0, 3];
+                    teams_b = [2, 1, 0, 3];
                     break;
                 case 3:
                     teams_b = [3, 1, 0, 2];
@@ -80,7 +80,7 @@ function groups(){
                     teams_b = [1, 0, 3, 2];
                     break;
                 case 5:
-                    teams_b = [1, 2, 0, 3];
+                    teams_b = [3, 1, 0, 2];
                     break;
                 case 6:
                     teams_b = [0, 3, 2, 1];
